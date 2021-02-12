@@ -8,7 +8,9 @@ export default function Contact() {
       <ul>
         {contacts.map((contact) => (
           <li>
-            <Link to={`detail/${contact.id}`}>person</Link>
+            <Link to={`/detail/${contact.id}`}>
+              {contact.name.first} {contact.name.last}
+            </Link>
           </li>
         ))}
       </ul>
