@@ -2,3 +2,49 @@
   margin: 0;
   padding: 0;
 }
+
+.userDetails {
+  width: 25%;
+  margin-left: 650px;
+}
+
+.contacts {
+  width: 25%;
+  margin-left: 650px;
+}
+
+h2 {
+  background-color: rgb(119, 184, 102);
+  text-align: center;
+}
+
+.back {
+  background-color: rgb(119, 184, 102);
+}
+
+.list {
+  border: 1px solid white;
+  border-bottom: 1px solid lightgray;
+  height: 60px;
+  font-size: 20px;
+  color: black;
+  text-align: justify;
+}
+
+li {
+  border: 1px solid white;
+  border-bottom: 1px solid lightgray;
+  height: 60px;
+  list-style-type: none;
+  font-size: 20px;
+  color: black;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.peeps {
+  text-align: left;
+  color: white;
+}
